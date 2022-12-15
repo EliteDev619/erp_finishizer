@@ -1,0 +1,64 @@
+.detail_type_note {
+  font-style: italic;
+}
+
+.account_type_search {
+  top: 8px;
+  right: 10px;
+}
+
+.account_treeview li {
+  list-style-type: none;
+  border: solid 1px #ddd;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 600;
+}
+
+.account_treeview li div{
+  padding: 7px;
+  padding-left: 15px;
+  border: solid 1px #ddd;
+}
+
+.account_treeview li ul{
+  margin: 15px;
+}
+
+.main {
+  cursor: pointer;
+  user-select: none;
+}
+
+.main::before {
+  content: "\2b";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.main-down::before {
+  content: "\2212";
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-right: 10px;
+  width: 15px;
+}

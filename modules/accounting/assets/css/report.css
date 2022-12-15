@@ -1,0 +1,82 @@
+.page {
+   
+    padding: 1cm;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 21cm;
+    margin: 1cm auto;
+}
+
+.page-size2{
+	padding: 1cm;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin: 1cm auto;
+}
+
+.tr_header{
+	border-top: 1px solid black;
+  	border-bottom: 1px solid black;
+}
+.tr_total{
+	font-weight: bold;
+	border-top: 1px solid black;
+}
+.border_top{
+    border-top: 1px solid black;
+}
+.card-header{
+	width: 100%;
+    display: inline-block;
+}
+#accordion{
+  width:100%;
+}
+.page hr{
+	margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+table{
+  width:100%;
+}
+
+.col-md-12, .col-md-2, .col-md-1{
+	padding-right: 0px !important;
+}
+
+.total_amount{
+	text-align: right;
+}
+
+.th_total{
+	text-align: right;
+	width:16.66666667%;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+.th_total_2{
+    text-align: right;
+    width:21.666667%;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+th{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.label_total{
+	width: 16.66666667%;
+    text-align: right;
+}
+
+.text-center{
+	text-align: center !important;
+}
